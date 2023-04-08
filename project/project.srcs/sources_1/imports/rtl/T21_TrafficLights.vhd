@@ -18,8 +18,7 @@ end entity;
 architecture rtl of T21_TrafficLights is
 
   -- Enumerated type declaration and state signal declaration
-  type t_State is (NorthNext, StartNorth, North, StopNorth,
-    WestNext, StartWest, West, StopWest);
+  type t_State is (NorthNext, StartNorth, North, StopNorth, WestNext, StartWest, West, StopWest);
   signal State : t_State;
 
   -- Calculate the number of clock cycles in minutes/seconds

@@ -29,8 +29,7 @@ architecture rtl of T22_TrafficLights is
   end function;
 
   -- Enumerated type declaration and state signal declaration
-  type t_State is (NorthNext, StartNorth, North, StopNorth,
-    WestNext, StartWest, West, StopWest);
+  type t_State is (NorthNext, StartNorth, North, StopNorth, WestNext, StartWest, West, StopWest);
   signal State : t_State;
 
   -- Counter for counting clock periods, 1 minute max

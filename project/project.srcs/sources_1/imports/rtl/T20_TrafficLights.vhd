@@ -18,8 +18,7 @@ end entity;
 architecture rtl of T20_TrafficLights is
 
   -- Enumerated type declaration and state signal declaration
-  type t_State is (NorthNext, StartNorth, North, StopNorth,
-    WestNext, StartWest, West, StopWest);
+  type t_State is (NorthNext, StartNorth, North, StopNorth, WestNext, StartWest, West, StopWest);
   signal State : t_State;
 
   -- Counter for counting clock periods, 1 minute max
