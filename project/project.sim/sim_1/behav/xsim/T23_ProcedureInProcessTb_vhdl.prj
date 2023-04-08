@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../rtl/T23_TrafficLights.vhd" \
+"../../../../../sim/T23_ProcedureInProcessTb.vhd" \
+
+# Do not sort compile order
+nosort

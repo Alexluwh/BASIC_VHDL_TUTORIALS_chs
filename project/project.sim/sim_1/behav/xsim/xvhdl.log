@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/vhdlwhiz/BASIC_VHDL_TUTORIALS_chs/rtl/T23_TrafficLights.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'T23_TrafficLights'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/vhdlwhiz/BASIC_VHDL_TUTORIALS_chs/sim/T23_ProcedureInProcessTb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'T23_ProcedureInProcessTb'
